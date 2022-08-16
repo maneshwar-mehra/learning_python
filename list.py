@@ -26,6 +26,8 @@ clothes = ["jacket", "jeans", "coat", "shirt", "t-shirt"]
 clothes.pop()
 print(clothes)
 
+
+
 # list comprehension
 
 # simple syntax without list comprehension
@@ -33,7 +35,6 @@ print(clothes)
 a = []
 for i in range (0,11):
     a.append (i + 5)
-
 print(a)
 
 # same syntax with list comprehension
@@ -42,7 +43,8 @@ b = [i + 5 for i in range(0, 11)]
 print(b)
 
 # we can add conditons also
-
 c=[i * 2 for i in range(0, 11) if i > 3]
 print(c)
+
+
 
