@@ -10,7 +10,7 @@ print(dict1)
 
 dict2 =  {"w": 100, "x":200, "y": 300, "z": 400}
 print(dict2)
-#  to get values from a dictionary we use "keys" with  "" 
+#  to get a specific values from a dictionary we use "keys" with  "" 
 print(dict2["x"])
 
 

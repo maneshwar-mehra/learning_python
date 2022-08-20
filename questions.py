@@ -239,35 +239,144 @@
 # Result:
 # 20 25 45 55 60 70 80 90 110
 
-original_list= [22.4, 4.0, 16.22, 9.1, 11.0, 12.22, 14.2, 5.2, 17.5]
+# original_list= [22.4, 4.0, 16.22, 9.1, 11.0, 12.22, 14.2, 5.2, 17.5]
 
-for i in range(0, len(original_list)):
-    original_list[i] = int(original_list[i])
-print(original_list)
-# max value
-max_val = original_list[0]
-for i in range(0, len(original_list)):
-    if max_val < original_list[i]:
-        max_val = original_list[i]
-print("max value is", max_val)
-# min value
-min_val = original_list[0]
-for i in range(0, len(original_list)):
-    if original_list[i] < min_val: 
-        min_val = original_list[i]
-print("min value is", min_val)
-# multuply each value by 5
-new_lst = []
-for i in original_list:
-    new_lst.append(i * 5)
-print(new_lst)
-
-
+# for i in range(0, len(original_list)):
+#     original_list[i] = int(original_list[i])
+# print(original_list)
+# # max value
+# max_val = original_list[0]
+# for i in range(0, len(original_list)):
+#     if max_val < original_list[i]:
+#         max_val = original_list[i]
+# print("max value is", max_val)
+# # min value
+# min_val = original_list[0]
+# for i in range(0, len(original_list)):
+#     if original_list[i] < min_val: 
+#         min_val = original_list[i]
+# print("min value is", min_val)
+# # multuply each value by 5
+# new_lst = []
+# for i in original_list:
+#     new_lst.append(i * 5)
+# print(new_lst)
 
 
+# Question from week-4 day-4 lecture video (watch week-4 day-4 lecture video to get the question)
+
+# print("enter the number of students", end=" ")
+# no_of_students = int(input())
+# print("enter the number of subjects", end=" ")
+# no_of_subjects = int(input())
+
+# results_dict = {}
+# for i in range(no_of_students):
+#     print("enter student name")
+#     student_name = input()
+#     print("enter the marks of ", student_name)
+#     marks = list(map(int, input().split(" "))) [:no_of_subjects]
+
+#     sum_of_all_marks = 0
+#     for i in marks:
+#         sum_of_all_marks += i
+
+#     average_marks = sum_of_all_marks // no_of_subjects
+    
+#     results_dict[student_name] = average_marks
+
+# print(results_dict)
 
 
 
+# Write a Python program to create a dictionary from a string. Note: Track the
+# count of the letters from the string. Sample string : 'w3resource' Expected output:
+# {'3': 1, 's': 1, 'r': 2, 'u': 1, 'w': 1, 'c': 1, 'e': 2, 'o': 1}
+
+
+# dict1 = {}
+
+# str1 = "w3resource"
+
+# for i in str1:
+#     if i in dict1.keys():
+#         dict1[i] += 1
+#     else:
+#         dict1[i] = 1 
+# print(dict1)
+
+
+
+# Question: Pattern problem
+#         *
+#       *   *
+#     *   *   *
+#   *   *   *   *
+
+# solution: here the number of colums or rows are = n
+# and the number of spaces in the starting are n-i
+
+# n = int(input("Please enter the no of rows "))
+# for i in range(1, n+1):
+#     print(" " * (n - i), end="")
+#     print("* " * i)
+
+
+
+
+# Question: Pattern problem
+#         1
+#       2   2
+#     3   3   3
+#   4   4   4   4
+# n = n = int(input("Please enter the no of rows "))
+
+# for i in range(1, n+1):
+#     print(" " * (n-i), end="")
+#     print((str(i) + " ") * (i))
+
+
+
+# Question: Pattern problem
+# ******
+#  *****
+#   ****
+#    ***
+#     **
+#      *
+# n = n = int(input("Please enter the no of rows "))
+
+# for i in range (1, n+1):
+#     print(" " * (i-1), end="")
+#     print("*" * (n-i+1))
+
+
+# Question: Pattern problem
+#  * * * * *
+#  * * * *  
+#  * * *    
+#  * *      
+#  * 
+# n = n = int(input("Please enter the no of rows "))
+
+# for i in range (1, n+1):
+#     print("*" * (n-i+1), end="")
+#     print(" " * (i-1))
+
+
+# Question: Pattern problem
+#     1     
+#    1 2    
+#   1 2 3   
+#  1 2 3 4  
+# 1 2 3 4 5 
+n = n = int(input("Please enter the no of rows "))
+
+for i in range(1, n+1):
+    print(" " * (n-i), end="")
+    for j in range(1, i+1):
+        print((str(j) + " "), end="")
+    print()
 
 
 
