@@ -27,3 +27,17 @@
 #         print(name[i])
 
 # iterate_name("maneshwar")
+
+
+
+# taking multiple return statements from a function and storing them in multiple variables
+# def random_func(a, b):
+#     add = a + b
+#     sub = a - b
+#     mult = a * b
+
+#     return add, sub, mult
+
+# x, y, z = random_func(10, 5)
+
+# print(x, y, z)

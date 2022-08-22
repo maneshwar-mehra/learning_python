@@ -370,16 +370,89 @@
 #   1 2 3   
 #  1 2 3 4  
 # 1 2 3 4 5 
-n = n = int(input("Please enter the no of rows "))
+# n = n = int(input("Please enter the no of rows "))
 
-for i in range(1, n+1):
-    print(" " * (n-i), end="")
-    for j in range(1, i+1):
-        print((str(j) + " "), end="")
-    print()
+# for i in range(1, n+1):
+#     print(" " * (n-i), end="")
+#     for j in range(1, i+1):
+#         print((str(j) + " "), end="")
+#     print()
 
 
 
+# Authentication system
+
+# def get_username_password(): # user_pass_dict is an argument 
+#     print("Please enter your desired username: ")
+#     username = input()
+#     print("Enter your password: ")
+#     password = input()
+# # adding key (username) and value (password) in to the dictionary
+#     return username, password
+
+
+# def show_all_users(username_to_password_dict):
+#     print(username_to_password_dict.keys())
+
+
+# print("Authentication system")
+
+
+# username_to_password_dict = dict() # making of the dictionary
+# while True:
+#     print("1. To create account")
+#     print("2. To login")
+#     print("3. To show all users")
+#     print("4. to exit")
+#     print()
+
+
+
+#     x = int(input())
+
+#     if x == 4:
+#         print("Thank you, Come back again in future :)")
+#         break
+#     elif x == 1:
+#         username, password =  get_username_password()
+#         if username in username_to_password_dict:
+#             print("error: username already taken")
+#             continue
+#         # calling the func. and passing the dictionary as parameter to it,
+#         # so that it will get mapped with (user_pass_dict) in the func.
+#         # username_to_password_dict = get_username_password(username_to_password_dict)
+#         # print(username_to_password_dict)
+#         username_to_password_dict[username] = password
+        
+#     elif x == 2:
+#         username_to_password_dict = get_username_password(username_to_password_dict)
+#         if username not in username_to_password_dict:
+#             print("error: username does not exist")
+#             continue
+#         expected_password = username_to_password_dict[username]
+#         if password == expected_password:
+#             print("Login successful")
+#         else:
+#             print ("Invalid input")
+#     elif x == 3:
+#         show_all_users(username_to_password_dict)
+#     else:
+#         print("Invalid input")
+
+
+
+
+
+def random_func(a, b):
+    add = a + b
+    sub = a - b
+    mult = a * b
+
+    return add, sub, mult
+
+x, y, z = random_func(10, 5)
+
+print(x, y, z)
 
 
 
