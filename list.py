@@ -42,7 +42,7 @@ print(a)
 b = [i + 5 for i in range(0, 11)]
 print(b)
 
-# we can add conditons also
+# we can add conditions also
 c=[i * 2 for i in range(0, 11) if i > 3]
 print(c)
 

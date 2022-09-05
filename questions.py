@@ -52,14 +52,14 @@
 
 
 
-# Question: print all the number in the range 1-50
+# Question: print all the even number in the range 1-50
 
 # # 1st method
 # for i in range(1, 51):
 #     if i % 2 == 0:
 #         print(i)
 
-# # # 2nd method
+# #  2nd method
 # for i in range(2, 51, 2):
 #     print(i)
 
@@ -83,7 +83,11 @@
 #     print(num, i, num * i )
 #     i +=1
 
+# n = int(input())
 
+# for i in range(1, 11):
+#     print(n," * ", i, (n*i))
+#     # i =+ 1
 
 # Question
 # Write a program to print vowels in a string given by the user.
@@ -438,6 +442,85 @@
 #         show_all_users(username_to_password_dict)
 #     else:
 #         print("Invalid input")
+
+
+
+
+# str1 = input()
+
+# for i in range(0, len(str1), 2):
+#     print(str1[i])
+
+
+# Exercise 4: Remove first n characters from a string
+# Write a program to remove characters from a string starting from
+# zero up to n and return a new string.
+
+# For example:
+# remove_chars("pynative", 4) so output must be tive.
+# Here we need to remove first four characters from a string.
+
+
+# n = int(input())
+
+# abc  = "maneshwar"
+
+# print(abc[n:])
+
+
+
+# Question: Check if first number in the list is equals to the last number in the list
+# numbers_x = [10, 20, 30, 40, 10]
+
+# popped_no = numbers_x.pop()
+
+# if numbers_x[0] == popped_no:
+#     print("yes")
+# else:
+#     print("no")
+
+
+
+
+# Exercise 6: Display numbers divisible by 5 from a list
+# list_1 = [10, 20, 33, 46, 55]
+
+# for i in list_1:
+#     if i % 5 == 0:
+#         print(i)
+
+
+
+
+# Exercise 10: Create a new list from a two list using the following condition
+# Create a new list from a two list using the following condition
+
+# Given a two list of numbers, write a program to create a new list such that
+# the new list should contain odd numbers from the first list and even numbers from the second list.
+
+# new_list = []
+
+# list1 = [10, 20, 25, 30, 35]
+# list2 = [40, 45, 60, 75, 90]
+
+# # for adding odd number 
+# for i in list1:
+#     if i % 2 != 0:
+#         new_list.append(i)
+# print(new_list)
+
+# # for adding even numbers
+# for j in list2:
+#     if j % 2 == 0:
+#         new_list.append(j)
+# print(new_list)
+
+# Question: Table of 1-10
+# for i in range(1, 11):
+#     for j in range (1, 11):
+#         print(i*j)
+#     print()
+
 
 
 
