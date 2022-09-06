@@ -515,6 +515,9 @@
 #         new_list.append(j)
 # print(new_list)
 
+
+
+
 # Question: Table of 1-10
 # for i in range(1, 11):
 #     for j in range (1, 11):
@@ -524,5 +527,90 @@
 
 
 
+# Question: Calculate the sum of all numbers from 1 to a given number
+# n = int(input())
+# sum = 0
+
+# for i in range(0, (n+1)):
+#     sum = sum + i
+# print(sum)
 
 
+
+
+# Question: Write a program to print multiplication table of a given number
+# n = int(input())
+# for i in range(0, 11):
+#     print(i*n)
+
+
+# Question:
+# Write a program to display only those numbers from a list that satisfy the following conditions
+
+# .The number must be divisible by five
+# .If the number is greater than 150, then skip it and move to the next number
+# .If the number is greater than 500, then stop the loop
+
+# numbers = [12, 75, 150, 180, 145, 525, 50]
+# for i in numbers:
+#     if i > 150:
+#         continue
+#     elif i % 5 == 0:
+#         if i > 500:
+#             break
+#         print(i)
+
+
+
+
+# Question: Count the total number of digits in a number
+# num = 75869
+# count = 0
+# while num != 0:
+#     # floor division
+#     # to reduce the last digit from number
+#     num = num // 10
+#     # increment counter by 1
+#     count = count + 1
+# print("Total digits are:", count)
+
+
+
+
+# Question: Print list in reverse order using a loop
+
+# method 1
+# list1 = [10, 20, 30, 40, 50]
+# # print(list1[::-1])
+
+# method 2
+# for i in range (len(list1)-1,-1, -1):
+#     print(list1[i])
+
+
+
+
+# Question: Display numbers from -10 to -1 using for loop
+# for z in range(-10, 0):
+#     print(z)
+
+
+
+
+# Question: Use a loop to display elements from a given list present at odd index positions
+
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# for i in range (0, len(my_list)):
+#     if i % 2 == 1:
+#         print(my_list[i])
+
+
+
+
+# Question: Calculate the cube of all numbers from 1 to a given number
+
+# n = int(input())
+
+# for i in range(1, (n+1)):
+#     print(i**3)

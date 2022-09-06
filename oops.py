@@ -12,8 +12,9 @@ class Aeroplane:
     def take_off(self):
         print("take off")
 
-    def land(self):
+    def land(self, message):  # we can also pass argument here
         print("land")
+        print("Message -", message)
 
     def fly(self):
         print("fly")
@@ -25,7 +26,7 @@ if __name__ == '__main__':
     indian_airlines = Aeroplane("50")
     # methods
     indian_airlines.take_off()
-    indian_airlines.land()
+    indian_airlines.land("This is the message")
     indian_airlines.fly()
 
     # attributes
