@@ -614,3 +614,36 @@
 
 # for i in range(1, (n+1)):
 #     print(i**3)
+
+
+
+# Question: Generate a Python list of all the even numbers between 4 to 30
+
+# lst1 = []
+
+# for i in range(4, 30,):
+#     if i % 2 == 0:
+#         lst1.append(i)
+# print(lst1)
+
+
+# Question: Find the largest item from a given list
+# x = [4, 6, 8, 24, 12, 2]
+
+# max = x[0]
+
+# for i in x:
+#     if i > max:
+#         max = i
+# print(max)
+
+
+# Question: Convert two lists into a dictionary
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+
+result = dict(zip(keys, values))
+print(result)
+
+
+

@@ -42,4 +42,35 @@
 
 # print(x, y, z)
 
+# Question: Create a function in Python
+# Write a program to create a function that takes two arguments, name and age, and print their value.
+# def name_age(name, age):
+#     print(name, age) 
+
+# name_age("mane", 20)
+
+
+
+
+# Write a program to create function such that it can accept two variables and calculate addition and subtraction.
+# Also, it must return both addition and subtraction in a single return call.
+
+# def func(a, b):
+#     sum = a + b
+#     sub = a - b
+#     return sum, sub
+
+# result = func(50, 10)
+# print(result)
+
+
+
+# default argument
+# def show_employee(name, salary= 10000): # default argument
+#     print(name, salary)
+
+
+# show_employee("mane", 90000)
+# show_employee("alex" ) # if we don't provide any parameter then it will take the default assigned argument
+
 
