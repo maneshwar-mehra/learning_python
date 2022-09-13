@@ -80,7 +80,7 @@
 #     def print_hair_color(self): # passing arguments which have used in "attributes" in methods are optional
 #         print(self.__hair_color)
 
-#     # we have used __ before method name noe this method is private also
+#     # we have used __ before method name now this method is private also
 #     def __reveal_address(self):
 #         print(self.address)
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 
 # syntax for Inheritance
-# Made a new class Dog
+# Make a new class, here it is: Dog
 # passed Animal class in it 
 # now all the Animal "attributes" and "methods" will be present in class Dog 
 

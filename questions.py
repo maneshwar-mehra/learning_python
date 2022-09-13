@@ -639,11 +639,51 @@
 
 
 # Question: Convert two lists into a dictionary
-keys = ['Ten', 'Twenty', 'Thirty']
-values = [10, 20, 30]
+# keys = ['Ten', 'Twenty', 'Thirty']
+# values = [10, 20, 30]
 
-result = dict(zip(keys, values))
-print(result)
+# result = dict(zip(keys, values))
+# print(result)
+
+
+# Question: Reverse the given number
+
+# number = 1234
+# number2 = str(number)
+# print(type(number2))
+
+# print(number2[::-1])
+
+
+
+
+# Question:
+# name = "zzoooo"
+
+# print(name.count("z"))
+
+# if name.count("z")*2 == name.count("o"):
+#     print("yes")
+# else:
+#     print("no")
+
+
+
+# Question: Mark and toys
+# a = 50
+
+# list1 = [1, 12, 5, 111, 200, 1000, 10]
+
+# list1.sort()
+# print(list1)
+
+# # [1, 5, 10, 12, 111, 200, 1000]
+# count = 0
+# for i in list1:
+#     if i <= 50:
+#         count += 1
+# print(count)
+
 
 
 
